@@ -268,6 +268,9 @@ div.footer_container div.social {
 	margin-right: 600px;
 	min-height	: inherit;
 }
+.nightly {
+	display: none;
+}
 @media (max-width: 700px) {
 	header div.header_container {
 		width: 100%;
@@ -277,36 +280,43 @@ div.footer_container div.social {
 	}
 	div.header_container hgroup h4:after {
 		display: block;
-		content: '(ورژن تبلت)';
+		content: '(ورژن افقی یا تبلت)';
 		line-height: 40px;
 		font-size: 18px;
 	}
 	div.fork_me {
 		background-image: url('images/forkme_mob.png');
-		width: 135px;
-		height: 32px;
+		width: 33px;
+		height: 60px;
+		right: 5px;
 	}
 	section.content_container div.content {
 		width: 100%;
 		padding-top: 20px;
 	}
 	div.content div.iE {
-		margin-left: 20px;
-	}
-	div.content div.opera {
 		display: none;
 	}
+	div.content div.opera {
+		margin-left: 20px;
+	}
 	div.content div.safari {
+		display: none;
+	}
+	div.content div.nightly {
+		display: block;
 		margin-left: auto;
 		margin-right: 20px;
 		float: none;
+	}
+	div.content div.nightly .icon {
+		background-image: url('images/nightly.png');
 	}
 	div.content div.firefox {
 		margin-left: 20px;
 	}
 	div.content div.chrome {
-		margin-left: auto;
-		margin-right: 20px !important;
+		margin-left: 20px;
 		float: none;
 		width: 182px;
 	}
@@ -336,7 +346,7 @@ div.footer_container div.social {
 	}
 	div.header_container hgroup h4:after {
 		display: block;
-		content: '(ورژن موبایل)';
+		content: '(ورژن عمودی)';
 		line-height: 40px;
 		font-size: 18px;
 	}
@@ -347,18 +357,12 @@ div.footer_container div.social {
 		min-height: 100px;
 		line-height: 1.2;
 	}
-	div.content div.iE {
-		float: none;
-		margin-right: auto;
-		margin-left: auto;
-	}
 	div.content div.opera {
 		float: none;
 		margin-right: auto;
 		margin-left: auto;
-		display: block;
 	}
-	div.content div.safari {
+	div.content div.nightly {
 		float: none;
 		margin-right: auto;
 		margin-left: auto;
