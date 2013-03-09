@@ -5,6 +5,7 @@
 <!--[if gt IE 8]><!-->	<html lang="fa-IR" dir="rtl" class="no-ie"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"  />
 	<title>دانلود مرورگر</title>
 	<meta name="keywords" content="مرورگر,گوگل کروم,کروم,فایرفاکس,موزیلا,اپرا,سافاری,اینترنت اکسپلورر,دانلود مرورگر,دانلود گوگل کروم,دانلود کروم,دانلود فایرفاکس,دانلود موزیلا,دانلود اپرا,دانلود سافاری,دانلود اینترنت اکسپلورر,browser,update,update browser,chrome,google chrome,firefox,mozila,opera,internet explorer,ie" />
 	<meta name="description" content=" مرورگر خودتون رو بروز کنید" />

@@ -268,3 +268,113 @@ div.footer_container div.social {
 	margin-right: 600px;
 	min-height	: inherit;
 }
+@media (max-width: 700px) {
+	header div.header_container {
+		width: 100%;
+	}
+	div.header_container hgroup h1 {
+		font-size: 52px;
+	}
+	div.header_container hgroup h4:after {
+		display: block;
+		content: '(ورژن تبلت)';
+		line-height: 40px;
+		font-size: 18px;
+	}
+	div.fork_me {
+		background-image: url('images/forkme_mob.png');
+		width: 135px;
+		height: 32px;
+	}
+	section.content_container div.content {
+		width: 100%;
+		padding-top: 20px;
+	}
+	div.content div.iE {
+		margin-left: 20px;
+	}
+	div.content div.opera {
+		display: none;
+	}
+	div.content div.safari {
+		margin-left: auto;
+		margin-right: 20px;
+		float: none;
+	}
+	div.content div.firefox {
+		margin-left: 20px;
+	}
+	div.content div.chrome {
+		margin-left: auto;
+		margin-right: 20px !important;
+		float: none;
+		width: 182px;
+	}
+	footer {
+		height: 180px;
+	}
+	footer div.footer_container {
+		width: 100%;
+	}
+	footer div.footer_container {
+		margin-top: 40px;
+	}
+	div.footer_container div.about {
+		text-align: justify;
+		margin-right: 20px;
+		margin-left: 20px;
+		width: auto;
+	}
+}
+@media (max-width: 385px) {
+	div.header_container hgroup h1 {
+		font-size: 35px;
+		line-height: 1.4;
+	}
+	div.header_container hgroup h4 {
+		font-size: 21px;
+	}
+	div.header_container hgroup h4:after {
+		display: block;
+		content: '(ورژن موبایل)';
+		line-height: 40px;
+		font-size: 18px;
+	}
+	header div.header_container {
+		min-height: 130px;
+	}
+	div.content p.info {
+		min-height: 100px;
+		line-height: 1.2;
+	}
+	div.content div.iE {
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	div.content div.opera {
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+	}
+	div.content div.safari {
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	div.content div.firefox {
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	div.content div.chrome {
+		float: none;
+		margin-right: auto !important;
+		margin-left: auto;
+	}
+	div.about p {
+		font-size: 16px;
+		line-height: 1.2;
+	}
+}
